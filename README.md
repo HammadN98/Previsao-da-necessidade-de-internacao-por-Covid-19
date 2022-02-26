@@ -39,6 +39,9 @@ Vejo como um trabalho futuro uma melhor seleção de paremetros nos modelos, e a
 
 ### Referencias 
 kaggle.com/Sírio-Libanes/covid19
+
 https://scikit-learn.org/stable/
+
 https://pandas.pydata.org
+
 As aulas do bootcamp e os codigos disponibilizados, bem como os materiais extras.
