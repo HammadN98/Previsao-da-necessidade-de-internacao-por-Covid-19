@@ -24,11 +24,21 @@ Os dados foram tratado de maneira a se adquarem melhor para a modelagem.
     * Com base em suas altas correlações colunas foram excluidas para nao terem grande influencia no modelo.
 
 ## Modelos
-Foram feitos modelo de Arvore de Decisão, Regressão Logistica e de Floresta Aleatoria, os quais foram refinados conforme necessario.
+Foram feitos modelo de Arvore de Decisão, Regressão Logistica e de Floresta de Decissão, os quais foram refinados conforme necessario.
 
 ## Resultados
-Dos 3 modelos usados, apenas 2 performaram bem, sendo eles o de Regressão Logistica e de Floresta Aleatoria.
-A metrica de F1-Score dos dois foi relativamente parecidas, 82 para a Regressão e 80 para a Floresta. Pórem o desempate veio pela matrix de confusão aonde usando os Falsos Negativos, os quais seriam pacientes que precisam de internação porém forma marcados como sem necessiade de internação  este sendo o pior erro possivel, já que a falta de internação poderia custar a vida de pacientes. Então por ess metrica a Regressão Logistica foi escolhida!!
+Dos 3 modelos usados, apenas 2 performaram bem, sendo eles o de Regressão Logistica e de Floresta de Decissão.
+A metrica de F1-Score dos dois foi relativamente parecidas, 82 para a Regressão e 80 para a Floresta de Decissão. Pórem o desempate veio pela matrix de confusão aonde usando os Falsos Negativos, os quais seriam pacientes que precisam de internação porém forma marcados como sem necessiade de internação  este sendo o pior erro possivel, já que a falta de internação poderia custar a vida de pacientes. Então por ess metrica a Regressão Logistica foi escolhida!!
 
 
 ##Conclusões
+
+Os objetivos do projeto foram concluidos com sucesso, foi possivel determinar a internação em uma primeira visita, tal qual previsão possuiu uma acertividade de 80%, o que é um valor alto.
+Pórem não do modo que eu estava esperando, que seria com um modelo usando a floresta  de Decissão, devido s sua maior complexidade de um simples regressão, talvez tenha faltado habiidade da hora de otimizar os parametros da floresta e fazer um modelo melhor, ou talvez o simples tenha de fato resolvido o problema de uma maneira satisfatoria.
+Vejo como um trabalho futuro uma melhor seleção de paremetros nos modelos, e ainda tentar mais uma vez fazer uma floresta que resolva o problema. Além de usar outros modelos de classificação. Além da criação de um pipeline para deixar tudo mais facil quando se for mexer no notebook.
+
+### Referencias 
+kaggle.com/Sírio-Libanes/covid19
+https://scikit-learn.org/stable/
+https://pandas.pydata.org
+As aulas do bootcamp e os codigos disponibilizados, bem como os materiais extras.
