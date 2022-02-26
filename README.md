@@ -24,8 +24,11 @@ Os dados foram tratado de maneira a se adquarem melhor para a modelagem.
     * Com base em suas altas correlações colunas foram excluidas para nao terem grande influencia no modelo.
 
 ## Modelos
-Foram feitos modelo de Arvore de decisão, Regressão Logistica e de floresta aleatoria, os quais foram refinados conforme necessario.
+Foram feitos modelo de Arvore de Decisão, Regressão Logistica e de Floresta Aleatoria, os quais foram refinados conforme necessario.
 
 ## Resultados
+Dos 3 modelos usados, apenas 2 performaram bem, sendo eles o de Regressão Logistica e de Floresta Aleatoria.
+A metrica de F1-Score dos dois foi relativamente parecidas, 82 para a Regressão e 80 para a Floresta. Pórem o desempate veio pela matrix de confusão aonde usando os Falsos Negativos, os quais seriam pacientes que precisam de internação porém forma marcados como sem necessiade de internação  este sendo o pior erro possivel, já que a falta de internação poderia custar a vida de pacientes. Então por ess metrica a Regressão Logistica foi escolhida!!
+
 
 ##Conclusões
