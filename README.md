@@ -13,8 +13,8 @@ O projeto tem como necessidade fazer a predição dos pacientes que chegam ao ho
 
 Os dados foram disponibilizados em kaggle.com/Sírio-Libanes/covid19
 
-## Analíse Exploratoria
-FFFoi feita uma analise inicial com graficos, com a inteção de conhecer melhor os dados e também a vinda de insghtis.
+## Analíse Exploratória
+Foi feita uma analise inicial com graficos, com a inteção de conhecer melhor os dados e também a vinda de insghtis.
 
 ## Tratamentos :hammer_and_wrench:
 Os dados foram tratado de maneira a se adquarem melhor para a modelagem.
