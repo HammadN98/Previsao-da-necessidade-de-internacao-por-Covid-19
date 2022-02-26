@@ -15,7 +15,7 @@ Os dados foram disponibilizados em kaggle.com/Sírio-Libanes/covid19
 ##Analíse Exploratoria
 FFFoi feita uma analise inicial com graficos, com a inteção de conhecer melhor os dados e também a vinda de insghtis.
 
-##Tratamentos 
+##Tratamentos :hammer_and_wrench:
 Os dados foram tratado de maneira a se adquarem melhor para a modelagem.
   Para isso:
     * Valores faltatens foram preenchidos.
@@ -45,3 +45,10 @@ https://scikit-learn.org/stable/
 https://pandas.pydata.org
 
 As aulas do bootcamp e os codigos disponibilizados, bem como os materiais extras.
+
+:brain:
+:dart:
+:game_die:
+
+⚖️
+:balance_scale:
