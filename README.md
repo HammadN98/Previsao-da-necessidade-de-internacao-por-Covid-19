@@ -23,7 +23,7 @@ Foi feita uma analise inicial com graficos, com a inteção de conhecer melhor o
  
 ## Tratamentos :hammer_and_wrench:
 Os dados foram tratado de maneira a se adquarem melhor para a modelagem.
-  Para isso:
+ Para isso:
     * Valores faltatens foram preenchidos.
     * Os pacientes que foram internados já da primeira janela foram removidos, como é pedido no enunciado do projeto.
     * As janelas temporais foram reduidas a apenas uma, afinal se busca uma intervenção já na primeira janela.
