@@ -9,6 +9,10 @@
 
 O projeto tem como necessidade fazer a predição dos pacientes que chegam ao hospital se será necessario a internação, além de que a necessiade é prever com certa rapideza. Se em um primeiro contato é possivel determinar ou não a internção.
 
+##Ordem notebooks
+ 1. Analises Exploratorias.
+ 2. Modelos, Testes e conclusão.
+
 ## Dados :game_die:
 
 Os dados foram disponibilizados em kaggle.com/Sírio-Libanes/covid19
@@ -43,8 +47,9 @@ Os objetivos do projeto foram concluidos com sucesso, foi possivel determinar a 
 O modelo de Regressão Logistica, foi escolhido com os seguintes criterios, maior precisão(F1-Score) e também pelas resultados da matrix de confusão. Que considerando nosso problema "Saber se o paciente precisa ser internado ou não", o pior problema seria mandar um paciente que precisa ser internado para casa, como o resultado desse modelo teve o menor numero de Falsos Negativos foi o escolhido. E tambem sendo ele o com maior numero de verdadeiros positivos. Apesar de ser o com o menor valor de Curva Auc.
 Pórem não do modo que eu estava esperando, que seria com um modelo usando a floresta  de Decissão, devido s sua maior complexidade de um simples regressão, talvez tenha faltado habiidade da hora de otimizar os parametros da floresta e fazer um modelo melhor, ou talvez o simples tenha de fato resolvido o problema de uma maneira satisfatoria.
 
-### Trabalhoss fututros
+### Trabalhoss futuros
 Vejo como um trabalho futuro uma melhor seleção de paremetros nos modelos, e ainda tentar mais uma vez fazer uma floresta que resolva o problema. Além de usar outros modelos de classificação. Além da criação de um pipeline para deixar tudo mais facil quando se for mexer no notebook.
+
 
 ### Referencias 
 kaggle.com/Sírio-Libanes/covid19
