@@ -3,9 +3,9 @@
 
 
 
-<h1 align="center"> Projeto_final </h1>
+<h1 align="center"> Prevendo a necessidade de internação por covid-19 no Hospital Sírio-Libanês </h1>
 
-## Prevendo a necessidade de internação por covid-19 no Hospital Sírio-Libanês
+
 
 O projeto tem como necessidade fazer a predição dos pacientes que chegam ao hospital se será necessario a internação, além de que a necessiade é prever com certa rapideza. Se em um primeiro contato é possivel determinar ou não a internção.
 
